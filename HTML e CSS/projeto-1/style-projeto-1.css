@@ -1,0 +1,91 @@
+/*Reset
+----------------------------------------------------------*/
+*{margin: 0; padding: 0; }
+
+body { font-family: Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif; color: #959595;}
+
+a { text-decoration: none; color: #f71d1d;}
+
+a:hover { color: #900;}
+
+ul { list-style-type: none;}
+
+h1, h2 { color: darkred;}
+
+p { color: black;}
+
+
+/*Geral
+----------------------------------------------------------*/
+.row{ width: 100%; float: left}
+
+.content{ width: 1024px; margin: 0 auto;}
+
+
+/*Header
+----------------------------------------------------------*/
+.header { padding: 10px 0;}
+
+.header-logo { float: left }
+
+.header-logo h1 a { color: #959595;}
+
+.header-logo h1 a span.html { color: #016fba;}
+
+.header-logo h1 a span.css { color: #e54d26;}
+
+
+.header-menu {float: right; padding: 9px 0;}
+
+.header-menu ul li {display: inline-block;margin-left: 20px;}
+
+
+/*BEM VINDO
+----------------------------------------------------------*/
+.bem-vindo {background-color: #ff6969; padding: 20px 0; text-align:center; color: #fff;}
+
+.bem-vindo .content {width: 620px;}
+
+.bem-vindo .content h1 {color: #fff;}
+
+/*MAIN
+----------------------------------------------------------*/
+.main {padding: 30px 0;}
+
+.main-menu {float:left; width: 160px; font-size: 18px;}
+
+.main-menu h1 {font-size: 20px;}
+
+.main-menu ul li {margin-top: 20px;}
+
+.main-conteudo {float: right; width: 840px; }
+
+.main-conteudo h1 {font-size: 20px; margin-bottom: 10px;}
+
+.main-conteudo p { margin-bottom: 20px;}
+
+.main-conteudo h1 a { color:darkred;}
+
+.main-conteudo p a { color: #959595;} 
+
+.main-conteudo h1 a:hover, .main-conteudo p a:hover {text-decoration:  underline;}
+
+/*ÚLtimos ARTIGOS
+----------------------------------------------------------*/
+.artigos { background: #faafaf; padding: 30px 0;}
+
+.artigos-title { font-size: 30px; color: #f71d1d; margin: 0 0 15px 0; padding-bottom: 5px; border-bottom: 2px solid #f71d1d}
+
+.artigos-coluna { float: left; text-align: justify; width: 30.66% }
+
+.artigos-coluna:nth-of-type(2) { margin-left: 4%; margin-right: 4%;} 
+
+.artigos-coluna h2 { font-size: 20px; margin-bottom: 10px;}
+
+.artigos-coluna a { color: #900;}
+
+.artigos-coluna a:hover { text-decoration: underline;}
+
+/*Footer
+----------------------------------------------------------*/
+.footer{ text-align: center; padding: 20px 0;}
